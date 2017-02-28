@@ -1,8 +1,7 @@
 package br.ufmg.dcc.labsoft.types.superclass;
 
-import br.ufmg.dcc.labsoft.types.Type4;
-
+//CATEGORY_SUPER_TYPE_REMOVED_DEPRECIATED
 @Deprecated
-public class Type9 extends Type4 {
+public class Type9 {
 
 }
