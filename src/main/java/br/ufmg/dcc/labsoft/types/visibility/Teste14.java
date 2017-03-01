@@ -1,5 +1,6 @@
 package br.ufmg.dcc.labsoft.types.visibility;
 
-class Teste14 {
+//default --> public
+public class Teste14 {
 
 }

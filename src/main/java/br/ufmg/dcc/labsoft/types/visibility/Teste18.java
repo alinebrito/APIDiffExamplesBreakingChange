@@ -1,65 +1,66 @@
 package br.ufmg.dcc.labsoft.types.visibility;
 
 // testes inner class
-public class Teste17 {
+@Deprecated
+public class Teste18 {
 	
 	//public --> private
-	private class  A{
+	public class  A{
 		
 	}
 	
 	//public --> protected
-	protected class  B{
+	public class  B{
 		
 	}
 	
 	//public -->  default
-	class  C{
+	public class  C{
 		
 	}
 	
 	//private --> protected
-	protected class  D{
+	private class  D{
 		
 	}
 	
 	//private --> default
-	class  E{
+	private class  E{
 		
 	}
 	
 	//private --> public
-	public class  F{
+	private class  F{
 		
 	}
 	
 	//protected -->  private
-	private class  G{
+	protected class  G{
 		
 	}
 	
 	//protected -->  default
-	class  H{
+	protected class  H{
 		
 	}
 	
 	//protected -->  public
-	public class  I{
+	protected class  I{
 		
 	}
 	
 	//default -->  private
-	private class  J{
+	class  J{
 		
 	}
 	
 	//default -->  protected
-	protected class  K{
+	class  K{
 		
 	}
 	
 	//default -->  public
-	public class  L{
+	class  L{
 		
 	}
 
