@@ -6,73 +6,73 @@ public class Teste19 {
 	
 	//public --> private
 	@Deprecated
-	public class  A{
+	private class  A{
 		
 	}
 	
 	//public --> protected
 	@Deprecated
-	public class  B{
+	protected class  B{
 		
 	}
 	
 	//public -->  default
 	@Deprecated
-	public class  C{
+	class  C{
 		
 	}
 	
 	//private --> protected
 	@Deprecated
-	private class  D{
+	protected class  D{
 		
 	}
 	
 	//private --> default
 	@Deprecated
-	private class  E{
+	class  E{
 		
 	}
 	
 	//private --> public
 	@Deprecated
-	private class  F{
+	public class  F{
 		
 	}
 	
 	//protected -->  private
 	@Deprecated
-	protected class  G{
+	private class  G{
 		
 	}
 	
 	//protected -->  default
 	@Deprecated
-	protected class  H{
+	class  H{
 		
 	}
 	
 	//protected -->  public
 	@Deprecated
-	protected class  I{
+	public class  I{
 		
 	}
 	
 	//default -->  private
 	@Deprecated
-	class  J{
+	private class  J{
 		
 	}
 	
 	//default -->  protected
 	@Deprecated
-	class  K{
+	protected class  K{
 		
 	}
 	
 	//default -->  public
 	@Deprecated
-	class  L{
+	public class  L{
 		
 	}
 
