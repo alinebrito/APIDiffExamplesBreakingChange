@@ -1,7 +1,7 @@
 package br.ufmg.dcc.labsoft.types.delete;
 
 //Classe para teste de remoção de types.
-public class Type27 {
+public class Type28Rename {
 	
 	public String fild1;
 	
