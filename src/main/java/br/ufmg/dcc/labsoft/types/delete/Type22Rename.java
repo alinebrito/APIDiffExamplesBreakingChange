@@ -1,6 +1,5 @@
 package br.ufmg.dcc.labsoft.types.delete;
 
-@Deprecated
-public class Type24 {
+public class Type22Rename {
 
 }
