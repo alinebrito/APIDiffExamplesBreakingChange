@@ -6,17 +6,17 @@ import java.io.IOException;
 public class Method5 {
 
 	//ganhou exceção [IllegalArgumentException]
-	public void m1(){
+	public void m1() throws IllegalArgumentException{
 		
 	}
 	
 	//removeu exceção [IOException, ArithmeticException --> IOException]
-	public void m2() throws IOException, ArithmeticException{
+	public void m2() throws IOException{
 		
 	}
 	
 	//trocou exceção [IOException --> ArithmeticException]
-	public void m3() throws IOException{
+	public void m3() throws ArithmeticException{
 		
 	}
 }

@@ -6,19 +6,19 @@ public class Method6 {
 
 	//ganhou exceção [IllegalArgumentException]
 	@Deprecated
-	public void m1(){
+	public void m1() throws IllegalArgumentException{
 		
 	}
 	
 	//removeu exceção [IOException, ArithmeticException --> IOException]
 	@Deprecated
-	public void m2() throws IOException, ArithmeticException{
+	public void m2() throws IOException{
 		
 	}
 	
 	//trocou exceção [IOException --> ArithmeticException]
 	@Deprecated
-	public void m3() throws IOException{
+	public void m3() throws ArithmeticException{
 		
 	}
 }
