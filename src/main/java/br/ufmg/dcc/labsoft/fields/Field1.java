@@ -3,42 +3,42 @@ package br.ufmg.dcc.labsoft.fields;
 public class Field1 {
 
 	//public --> private
-	public int x1;
+	private int x1;
 	
 	//public --> protected
-	public int x2;
+	protected int x2;
 	
 	//public --> default
-	public int x3;
+	int x3;
 	
 	
 	//private --> protected
-	private int x4;
+	protected int x4;
 	
 	//private --> default
-	private int x5;
+	int x5;
 	
 	//private --> public
-	private int x6;
+	public int x6;
 	
 	
 	//protected --> private
-	protected int x7;
+	private int x7;
 	
 	//protected --> default
-	protected int x8;
+	int x8;
 	
 	//protected --> public
-	protected int x9;
+	public int x9;
 	
 	
 	//default --> private
-	int x10;
+	private int x10;
 	
 	//default --> protected
-	int x11;
+	protected int x11;
 	
 	//default --> public
-	int x12;
+	public int x12;
 	
 }
