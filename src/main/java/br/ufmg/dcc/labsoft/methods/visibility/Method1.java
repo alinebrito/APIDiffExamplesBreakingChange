@@ -3,62 +3,62 @@ package br.ufmg.dcc.labsoft.methods.visibility;
 public class Method1 {
 
 	//public --> private
-	public void m1(){
+	private void m1(){
 		
 	}
 	
 	//public --> protected
-	public void m2(){
+	protected void m2(){
 		
 	}
 	
 	//public --> default
-	public void m3(){
+	void m3(){
 		
 	}
 	
 	//private --> public
-	private void m4(){
+	public void m4(){
 		
 	}
 	
 	//private --> protected
-	private void m5(){
+	protected void m5(){
 		
 	}
 	
 	//private --> default
-	private void m6(){
+	void m6(){
 		
 	}
 	
 	//protected --> public
-	protected void m7(){
+	public void m7(){
 		
 	}
 	
 	//protected --> default
-	protected void m8(){
+	void m8(){
 		
 	}
 	
 	//protected --> private
-	protected void m9(){
+	private void m9(){
 		
 	}
 	
 	//default --> public
-	void m10(){
+	public void m10(){
 		
 	}
 	
 	//default --> protected
-	void m11(){
+	protected void m11(){
 		
 	}
 	
 	//default --> private
-	void m12(){
+	private void m12(){
 		
 	}
 }
