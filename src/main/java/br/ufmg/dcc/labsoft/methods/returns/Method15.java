@@ -7,8 +7,8 @@ public class Method15 {
 
 	//List<String> --> List<Integer>
 	@Deprecated
-	public List<String> m4(){
-		 List<String>  list = new ArrayList<String>();
+	public List<Integer> m4(){
+		 List<Integer>  list = new ArrayList<Integer>();
 		 return list;
 	}
 }
