@@ -29,7 +29,7 @@ public class Method16 {
 	}
 	
 	//Nome da variável alterada x1 --> x2
-	public void m5(String x1){
+	public void m5(String x2){
 		
 	}
 
