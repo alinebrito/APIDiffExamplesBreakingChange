@@ -7,7 +7,7 @@ public class Method17 {
 	
 	//Ordem trocada. 
 	//Integer i, List<String> list --> List<String> list, Integer i
-	public void m1(Integer i, List<String> list){
+	public void m1(List<String> list, Integer i){
 		
 	}
 
