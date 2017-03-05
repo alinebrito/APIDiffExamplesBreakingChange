@@ -4,6 +4,6 @@ package br.ufmg.dcc.labsoft.enums;
 //SAVE --> EDIT
 public enum Enum1 {
 	
-	OPEN, SAVE, DELETE;
+	OPEN, EDIT, DELETE;
 
 }
