@@ -4,7 +4,7 @@ package br.ufmg.dcc.labsoft.modifierStatic;
 public class ModifierStatic2 {
 	
 	//static --> non-static
-	public static class Inner1{
+	public class Inner1{
 		
 	}
 }
