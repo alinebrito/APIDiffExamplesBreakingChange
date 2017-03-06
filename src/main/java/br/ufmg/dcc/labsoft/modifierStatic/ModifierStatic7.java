@@ -7,9 +7,9 @@ public class ModifierStatic7 {
 	@Deprecated
 	public int x1 = 1;
 	
-	//static --> non-static
+	//non-static --> static
 	@Deprecated
-	public int x2 = 2;
+	static public int x2 = 2;
 	
 	
 	//static --> non-static
@@ -18,9 +18,9 @@ public class ModifierStatic7 {
 		
 	}
 	
-	//static --> non-static
+	//non-static --> static
 	@Deprecated
-	public void m2(){
+	static public void m2(){
 		
 	}
 
