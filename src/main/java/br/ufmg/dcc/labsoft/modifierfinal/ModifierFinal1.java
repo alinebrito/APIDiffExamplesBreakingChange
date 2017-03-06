@@ -1,6 +1,6 @@
 package br.ufmg.dcc.labsoft.modifierfinal;
 
 //final --> non-final
-final public class ModifierFinal1 {
+public class ModifierFinal1 {
 
 }
