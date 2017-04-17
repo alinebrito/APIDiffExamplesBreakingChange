@@ -14,6 +14,6 @@ public @interface Annotation5{
 	
 	String lastModifiedBy();
 	
-	int cod() default 12345;
+	int cod();
 
 }
