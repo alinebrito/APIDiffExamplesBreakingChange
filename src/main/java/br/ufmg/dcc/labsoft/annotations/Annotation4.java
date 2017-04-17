@@ -1,14 +1,15 @@
 package br.ufmg.dcc.labsoft.annotations;
 
+//created removed
+//String createBy() --> int createBy()
+//String lastModified() --> String lastModifiedRenamed();
 public @interface Annotation4{
-	
-	String created();
 	
 	int createdd();
 	
-	String createBy();
+	int createBy();
 	
-	String lastModified();
+	String lastModifiedRenamed();
 	
 	String lastModifiedBy();
 	

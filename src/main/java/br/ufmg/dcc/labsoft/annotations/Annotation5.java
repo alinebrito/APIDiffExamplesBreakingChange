@@ -1,5 +1,7 @@
 package br.ufmg.dcc.labsoft.annotations;
 
+//int cod() gain value default
+//int cod() lost value default
 public @interface Annotation5{
 	
 	String created();
@@ -12,6 +14,6 @@ public @interface Annotation5{
 	
 	String lastModifiedBy();
 	
-	int cod();
+	int cod() default 12345;
 
 }
