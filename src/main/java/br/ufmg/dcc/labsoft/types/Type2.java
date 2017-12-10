@@ -6,7 +6,7 @@ public class Type2 {
 		System.out.println("test contructor");
 	}
 	
-	public void method(String teste, int i, boolean status, boolean error) {
+	public void method(String teste, int i, boolean error) {
 		System.out.println("test contructor");
 	}
 }
